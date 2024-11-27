@@ -1,0 +1,128 @@
+/* Container principal */
+.container {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;    
+max-width: 100%;
+display: flex; /* Coloca a imagem e o texto lado a lado */
+  align-items: center; /* Alinha o texto verticalmente ao centro da imagem */
+  gap: 100px; 
+
+}
+.img{
+width: 300px;
+height: auto;
+margin-bottom: -4%;
+
+}
+hr{
+  width: 84%;
+  margin: 10px auto; /* Centraliza horizontalmente */
+  
+
+  
+}
+.link{
+  font-size: 11px;
+  display: block;
+  padding: 12%;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  color: #007BFF;
+
+}
+.text{
+  font-size: 17px;
+  font-weight: 300; /* Letras mais finas */
+  margin: 0; /* Remove margens padrão do texto */
+  line-height: 1.4; /* Ajusta o espaçamento entre linhas */
+  margin-left: 30px;
+  
+
+}
+
+
+.App, input{
+background-color: #fff;
+width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 10px;
+  outline: none;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2); /* Sombra para fora */
+  
+  margin-bottom: 15px;
+  text-align: center;
+  text-align: left;
+  
+}
+
+input{
+  margin-left: 5%;
+  margin-top: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+  transition: box-shadow 0.3s ease; /* Suaviza mudanças na sombra */
+
+
+}
+.botao1{
+  background-color:  #007BFF;
+  font-size: 13px; /* Mesma fonte */
+  color: #fff;
+  border: none;
+  padding: 10px 100px;
+  margin: 10px auto; /* Centraliza horizontalmente */
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; /* Necessário para margin auto funcionar */
+  text-align: center;
+  margin-bottom: 0%;
+ 
+}
+
+
+.botao2 {
+  background-color: #28a745;
+  font-size: 10px; /* Letras menores */
+  color: #fff;
+  border: none;
+  padding: 10px 70px;
+  margin: 10px auto; /* Centraliza horizontalmente com auto */
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; /* Necessário para usar o margin auto */
+  text-align: center; /* Centraliza o texto dentro do botão */
+}
+@media  screen and (max-width: 768px) {
+ .container{
+  flex-direction: column; /* Alinha verticalmente */
+  align-items: center; /* Alinha horizontalmente */
+  gap: 30px;
+  padding-left: 23px;
+  
+  
+ }
+ .colum2{
+  margin-left: -50px;
+ }
+
+ .text{
+  font-size: 14px; 
+  text-align: left; 
+ }
+ .img{
+  margin-bottom: 0;
+  margin-right: 10px;
+  margin-bottom: -15px;
+  
+ }
+ 
+  
+}
+
+
+
